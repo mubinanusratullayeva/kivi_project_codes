@@ -1,0 +1,22 @@
+.compo{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    &__head{
+        padding: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .blockSpan{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__foot{
+        padding: 20px;
+        border-top: 1px solid #9797973F;
+        display: flex;
+        column-gap: 50px;
+        justify-content: flex-start;
+    }
+}

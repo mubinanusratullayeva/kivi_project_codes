@@ -1,0 +1,135 @@
+$main-color: #000000;
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    &__rightPart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        text-align: center;
+        h2{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29.71px;
+            color: $main-color;
+        }
+        p{
+            margin-right: 0;
+            max-width: 334px;
+            padding: 10px 0;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 23px;
+            color: #304fff;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            label{
+            padding: 20px 0 7px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20.62px;
+            color: #787993;
+            }
+            input{
+                outline: none;
+                border: 1px solid #97979796;
+                padding: 16px;
+                border-radius: 6px;
+                ::placeholder{
+                    font-weight: 500;
+                    font-size: 19px;
+                    line-height: 23.05;
+                }
+            }
+            button{
+                max-width: 329px;
+                padding: 20px 25px;
+                background-color: #41d481;
+                border: none;
+                border-radius: 7px;
+                color: #ffffff;
+                margin: 25px 0;
+                cursor: pointer;
+                :hover{
+                    background-color: #0e490a71;
+                }
+            }
+        }
+        span{
+            margin-top: 20px;
+            text-align: center;
+            height: 1.2px;
+            border-left: 110px solid #97979796;
+            border-right: 110px solid #97979796;
+        }
+    }
+    &__leftPart{
+        position: relative;
+        background-image: url(../../assets/img/bg-log.jpg);
+        width: 50%;
+        height: 952px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx){
+            background-image: url(../../assets/img/bg-log2x.jpg);
+            width: 55%;
+            height: 955px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .whiteShape{
+            position: absolute;
+            bottom: 280px;
+            left: 60px;
+            height: 299px;
+            width: 285px;
+            background-image: url(../../assets/img/shape-white.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 35px;
+            text-align: left;
+            img{
+                margin: 0!important;
+                padding: 0!important;
+            }
+            p{
+                max-width: 213.23px;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 21px;
+                color: #787993;
+            }
+            button{
+                width: 200px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19.81px;
+                padding: 10px 6px;
+                background-color: transparent;
+                border-radius: 6px;
+                border: 3px solid #41D481;
+                color: #41D481; 
+                transition: 0.2s;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #41D481;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export { ComponentInProfile } from './componentPro'

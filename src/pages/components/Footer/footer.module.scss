@@ -1,0 +1,84 @@
+$main-color: #ffffffff;
+$secondary-color: #878F99;
+
+.footerHead{
+    margin-top: 60px;
+    background-color: #282B30;
+    padding: 12px 0;
+    &__navbar{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footerHeadLink{
+            display: flex;
+            column-gap: 10px;
+            text-decoration: none;
+            .footerLinkText{
+                width: 152px;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: $main-color;
+            }
+        }
+        .aroundImg{
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid $main-color;
+        }
+    }
+    &__text{
+        max-width: 307px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18.2px;
+        color: #98A4B7;
+    }
+}
+
+.footerBody{
+    background-color:#33383C;
+    &__body{
+        min-height: 400px;
+        padding: 40px 0;
+        max-width: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .flexLinks{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            &__link{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 29px;
+                color: #878F99;
+            }
+        }
+    }
+    .footerPart__footer{
+        border-top: 1px solid #4C565E;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .flexLinks__link{
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 29px;
+            color: #878F99;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.profileButton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    min-width: 129px;
+    border: 1px solid #41D481;
+    background-color: #ffffff;
+    border-radius: 100px 5px 5px 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profileButton:hover{
+    background-color: #41D481;
+    color: #ffffff;
+}
+
+.roundingSpan{
+    margin-left: -6px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 37px;
+    min-height: 37px;
+    border-radius: 50%;
+    background-color: #41D481;
+}
+
+
+.profileButtonSecond {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    min-width: 129px;
+    border: 1px solid #304FFF;
+    background-color: #ffffff;
+    border-radius: 100px 5px 5px 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profileButtonSecond:hover{
+    background-color: #304FFF;
+    color: #ffffff;
+}
+
+.roundingSpanSecond{
+    margin-left: -6px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 37px;
+    min-height: 37px;
+    border-radius: 50%;
+    background-color: #304FFF;
+}

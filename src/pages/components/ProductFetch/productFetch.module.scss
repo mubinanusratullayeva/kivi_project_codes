@@ -1,0 +1,32 @@
+.flexProfucts{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    .card{
+        max-width: 265px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: #ffffff;
+        &__title{
+            padding: 15px 0;
+            max-width: 254px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19.41px;
+            color: #000000;
+        }
+    }
+    .card:active{
+        transition: 0.3s;
+        opacity: 0.8;
+    }
+}

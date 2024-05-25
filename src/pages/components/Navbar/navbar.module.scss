@@ -1,0 +1,158 @@
+$main-color: #000000;
+
+li{
+    list-style: none;
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    box-shadow: 12px 4px 24px 0px #00000011;
+    background-color: #ffffff;
+    z-index: 3000000000;
+    padding: 12px 0;
+    .navbar{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__link{
+            display: flex;
+            column-gap: 10px;
+            text-decoration: none;
+            .navbarLinkText{
+                width: 152px;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: $main-color;
+            }
+        }
+        &__menu{
+            min-width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .navbarMenuLink{
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 18.2px;
+                color: $main-color;
+            }
+        }
+        .flexLogs{
+            min-width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #4E72CA;
+            .LogLink{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 21.05px;
+                color: #4E72CA;
+            }
+            .avatarLink{
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+                color: grey;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: large;
+            }
+        }
+    }
+    .flexNavbar{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        .searches{
+            max-width: 73%;
+            margin-top: 25px;
+            min-height: 45px;
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #9797977F;
+            border-radius: 60px;
+            input, .rtyui{
+                height: 45px;
+                outline: none;
+                background-color: transparent;
+                border: none;
+                margin-right: 20px;
+            }
+            input{
+                min-width: 300px;
+                padding-left: 20px;
+                border-left: 1px solid #9797977F;
+            }
+            .dfghj{
+                height: 45px;
+                padding-left: 20px;
+                border-left: 1px solid #9797977F;
+                outline: none;
+                background-color: transparent;
+                border-top: none;
+                border-right: none;
+                border-bottom: none;
+                margin-right: 50px;
+            }
+            .btnNayti{
+                border-radius: 30px;
+                width: 95px;
+                background-color: #19D476;
+                padding: 15px;
+                border: none;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                cursor: pointer;
+                justify-self: flex-end;
+                transition: 0.1s;
+            }
+            .btnNayti:hover{
+                background-color: #00e673;
+            }
+            .btnNayti:active{
+                background-color: #00e673a2;
+            }
+        }
+        .btnRestmangle{
+            display: flex;
+            align-items: center;
+            justify-content: baseline;
+            column-gap: 15px;
+            color: #ffffff;
+            background-color: #19D476;
+            border: none;
+            border-radius: 40px;
+            padding-right: 15px;
+            cursor: pointer;
+            transition: 0.2s;
+            .roundBtn{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                color: #ffffff;
+                background-color: #11B463;
+                font-size: 16px;
+                margin-left: -7px;
+            }
+        }
+        .btnRestmangle:hover{
+            background-color: #03b0599e;
+        }
+    }
+}
