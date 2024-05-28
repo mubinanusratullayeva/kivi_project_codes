@@ -1,3 +1,5 @@
+deployed to a server: (https://main.d2f99lcicrogjl.amplifyapp.com/)
+
 # Built Folder is here:
 (https://github.com/mubinanusratullayeva/KiviByReactJs).
 
